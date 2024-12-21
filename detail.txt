@@ -1,0 +1,24 @@
+git init (to create folder github)
+git remote add origin <link>
+git remmote -v to verfy remotegit branch check 
+git branch -M main (to rename branch)
+git push -u origin main (to create origin main one time)
+
+
+git config --user.name "fgg"
+
+git status
+git add . or name of file
+git commit -m "comment "
+cd folder (to move forward in folder)
+cd .. (to move backward int folder)
+mkdir newrepo (to create new folder)
+
+concept of branches in github
+git checkout <-branch name-> (to change one branch to other )
+git checkout -b <-new branch name-> (to create new branch)
+git branck -d <-branch name-> (to delete branch)
+
+new branch feature
+
+ggh
