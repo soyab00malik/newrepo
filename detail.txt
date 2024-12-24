@@ -33,3 +33,5 @@ way2
  to get the main changes from reposatry
  
  git pull origin main
+ 
+Rolving merge issue
