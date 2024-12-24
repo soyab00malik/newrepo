@@ -33,4 +33,26 @@ way2
  to get the main changes from reposatry
  
  git pull origin main
- new addditon
+ 
+ git REset changes in your branches
+  
+  Add( staged changes reset)
+  git reset
+
+  commited change reset
+  git reset HEAD~1 K(this for just did commit reset)
+
+  git log (show all changes you did).
+  q for quit.
+   
+   commited reset for more than one commit)
+   git reset use has
+
+   Reset commit git and and vs code editor also
+   git  reset --hard use #has value
+
+   Fork 
+   A fork is a new repository that shares code and visibilty settings with the original"upstream"
+   repository
+   
+   Fork is a rough copy.
