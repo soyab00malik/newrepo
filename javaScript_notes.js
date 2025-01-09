@@ -294,68 +294,68 @@ btn.addEventListener("click", () =>{
 
 
 
-let btn =document.querySelector("#btn");
-let rock = document.querySelector("#rock");
-let paper = document.querySelector("#paper");
-let scissor = document.querySelector("#scissor");
+// let btn =document.querySelector("#btn");
+// let rock = document.querySelector("#rock");
+// let paper = document.querySelector("#paper");
+// let scissor = document.querySelector("#scissor");
 
-let you= document.querySelector("#ou");
-let comp= document.querySelector("#comp");
-let men=0;
-let compges=0;
+// let you= document.querySelector("#ou");
+// let comp= document.querySelector("#comp");
+// let men=0;
+// let compges=0;
 
-rock.addEventListener("click", () =>{
-    let n =Math.floor(Math.random() * 3)+1;
-    if(n==3){
-        men++;
-        btn.style.backgroundColor="green";
-        btn.innerText="You Win: Rock beats Scissros";
-      }
-      else if(n==2){compges++;
-        btn.style.backgroundColor="red";
-        btn.innerText="You Lose: Paper beats rock";
-      }
-     else if(n==1){
-        btn.style.backgroundColor=" #080830";
-        btn.innerText="Its a Draw";
-      }
-      you.innerText=`${men}`;
-      comp.innerText=compges;
+// rock.addEventListener("click", () =>{
+//     let n =Math.floor(Math.random() * 3)+1;
+//     if(n==3){
+//         men++;
+//         btn.style.backgroundColor="green";
+//         btn.innerText="You Win: Rock beats Scissros";
+//       }
+//       else if(n==2){compges++;
+//         btn.style.backgroundColor="red";
+//         btn.innerText="You Lose: Paper beats rock";
+//       }
+//      else if(n==1){
+//         btn.style.backgroundColor=" #080830";
+//         btn.innerText="Its a Draw";
+//       }
+//       you.innerText=`${men}`;
+//       comp.innerText=compges;
    
-});
+// });
 
-paper.addEventListener("click", () =>{
-    let n =Math.floor(Math.random() * 3)+1;
-    if(n==1){men++;
-        btn.style.backgroundColor="green";
-        btn.innerText="You Win: Paper beats Rock";
-      }
-      else if(n==3){compges++;
-        btn.style.backgroundColor="red";
-        btn.innerText="You Lose: scissor beats Paper";
-      }
-      else if(n==2){
-        btn.style.backgroundColor=" #080830";
-        btn.innerText="Its a Draw";
-      }
-      you.innerText=men;
-      comp.innerText=compges;
-});
+// paper.addEventListener("click", () =>{
+//     let n =Math.floor(Math.random() * 3)+1;
+//     if(n==1){men++;
+//         btn.style.backgroundColor="green";
+//         btn.innerText="You Win: Paper beats Rock";
+//       }
+//       else if(n==3){compges++;
+//         btn.style.backgroundColor="red";
+//         btn.innerText="You Lose: scissor beats Paper";
+//       }
+//       else if(n==2){
+//         btn.style.backgroundColor=" #080830";
+//         btn.innerText="Its a Draw";
+//       }
+//       you.innerText=men;
+//       comp.innerText=compges;
+// });
 
-scissor.addEventListener("click", () =>{
-    let n =Math.floor(Math.random() * 3)+1;
-    if(n==2){men++;
-        btn.style.backgroundColor="green";
-        btn.innerText="You Win: scissors beats Paper";
-      }
-      else if(n==1){compges++;
-        btn.style.backgroundColor="red";
-        btn.innerText="You Lose: Rock beats Scissors";
-      }
-      else if(n==3){
-        btn.style.backgroundColor=" #080830";
-        btn.innerText="Its a Draw";
-      }
-      you.innerText=men;
-      comp.innerText=compges;
-});
+// scissor.addEventListener("click", () =>{
+//     let n =Math.floor(Math.random() * 3)+1;
+//     if(n==2){men++;
+//         btn.style.backgroundColor="green";
+//         btn.innerText="You Win: scissors beats Paper";
+//       }
+//       else if(n==1){compges++;
+//         btn.style.backgroundColor="red";
+//         btn.innerText="You Lose: Rock beats Scissors";
+//       }
+//       else if(n==3){
+//         btn.style.backgroundColor=" #080830";
+//         btn.innerText="Its a Draw";
+//       }
+//       you.innerText=men;
+//       comp.innerText=compges;
+// });
