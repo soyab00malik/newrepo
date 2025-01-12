@@ -359,3 +359,129 @@ btn.addEventListener("click", () =>{
 //       you.innerText=men;
 //       comp.innerText=compges;
 // });
+
+// OBJECT IN JS (It is an entity having stte and behavior (properties and method).
+// const student ={
+//     fullName: "shradha khapra",
+//     marks:94.4,
+//     printMarks: function() {
+//         console.log("marks =",this.marks); //student.marks
+//     },
+// };
+
+// object have prototype in objects free (prototype contain method and function)
+
+// const employee={
+//     calcTax() {
+//         console.log("tax rate is 10%")
+//     },
+// }
+
+// const soyab={             
+//     sallry:5000,
+// };
+
+// soyab.__proto__ = employee;//prototype is null type object
+
+// **If prototype and object have same name class (it all choose object class)
+
+
+// CLASSE IN JSON
+// class is a program-code template for creating objects
+
+// Those objects will have some state (variables) & some behaviour (function) inside if 
+
+// it work like blue print for object
+// class myClass{
+//     start(s ) {
+//         console.log(`hell ${s}`);
+//     }
+
+//     stop() {
+//         console.log("non-stop");
+//     }
+// }
+// //Add class with object
+// let lthall = new myClass();
+
+// lthall.start(9);
+
+
+//Constructor() method is:
+// -> automatically invoked by new 
+// initalizes Object
+
+// class ToyotaCar {
+//     constructor() {
+//         console.log("creating new object");
+//     }
+// }
+//  Constructor work when we initialize something
+// The first call is constructor
+
+
+// inheritance in JS
+
+// inheritance is passing down properties &methods from parent class to child class.
+
+// class parent {
+//      hello() {
+//         console.log("hello");
+//      }
+// }
+
+// class child extends parent {
+
+// }
+
+// let obj = child();
+
+
+
+// SUPER KEYWORD
+
+// the super keyword is used to call the construcor of its parent class to access the parent's properties and methods.
+
+// super(args) //calls Parent's constructor
+
+// super.parentMethod(args)
+
+
+// class parent {
+//     constructor(name) {
+//         this.species = "hemo sapiens";
+//         this.name = name;
+//     }
+//     eat() {
+//         console.log("eat");
+//     }
+// }
+
+// class Child extends parent {
+//     constructor(name) {
+//         super(name);
+//     }
+//     work() {
+//         super.eat();
+//     }
+// }
+
+// let engObj = new Child("hello");
+
+//Error handling 
+
+// try {}
+//     normal code 
+// } catch (err) {
+//     console.log (err);
+// }
+
+// asyncronous
+// not follow the flow of code 
+
+
+console.log("one");
+setTimeout(() =>{
+    console.log("kiyu");
+},2000);
+console.log("three");
